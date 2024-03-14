@@ -12,6 +12,10 @@ pydantic = "^2.6.3"
 flask = "^3.0.2"
 
 
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+mypy = "^1.9.0"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
