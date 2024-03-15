@@ -1,4 +1,4 @@
-from api.main import app
+from ergosim.backend.api.main import app
 
 
 @app.route("/accounts", methods=['GET'])
